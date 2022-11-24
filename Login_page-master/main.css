@@ -1,0 +1,99 @@
+body{
+/* background-image is inputed and here*/
+background-image: url("https://res.cloudinary.com/mide358/image/upload/v1568715997/Background-img2_hc8lnn.png");
+background-repeat: no-repeat;
+background-position: top ;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+form {
+    text-align: center;
+    margin-top: 15%;
+       
+}
+
+input {
+    border: 2px solid #A625D3;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 370px;
+    height: 23px;
+    background-color: white;
+
+
+}
+
+
+.button{
+    background-color: #A625D3;
+    color: #fff;
+    border-radius: 20px;
+    border-color:#A625D3;
+    width: 400px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.other-details a {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
+    color: #A625D3;
+    text-decoration: none;
+}
+
+::placeholder{
+    font-size: 15px;
+
+}
+
+img {
+    display:block;
+    width: 100px;
+    height:100px;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top:15%;
+    padding-bottom: 25px;
+    
+}
+
+.other-details {
+    text-align: center;
+}
+
+.forgot {
+    text-align: center;
+    padding-bottom:40px;
+    margin-top: -50px;
+    font-size: 15px;
+  }
+
+  .password-details a{
+    font-size: 20px;
+    text-decoration: none; 
+    color: #A625D3;
+             
+  }
+  .password-details{
+      margin-top: -5%;
+  }
+
+  @media (min-width: 600px) {
+    .forgot {
+        text-align: center;
+        padding-bottom:40px;
+        margin-top: -15%;
+        font-size: 15px;
+      }
+  }
